@@ -1,0 +1,43 @@
+body{
+	background: #252424;
+}
+h1{
+	text-align: center;
+	color: #fff;
+	font-size: 500%;
+}
+h2{
+	text-align: center;
+	background: #456874;
+	padding: 2%;
+	font-size: 300%;
+}
+nav{
+	text-align: center;
+}
+nav a{
+	padding: 1% 4% 1% 4%;
+	margin: 4%;
+	border: 2px solid;
+	border-color: #fff;
+	border-radius: 25px;
+	text-decoration: none;
+	color: #37e578;
+	font-size: 200%;
+	font-weight: 900;
+}
+nav{
+	margin-top: 5%;
+}
+nav a:hover{
+	background: #fff;
+	color: blue;
+}
+footer{
+	position: absolute;
+	bottom: 0;
+}
+footer img{
+	width: 40%;
+	margin-left: 130%;
+}
