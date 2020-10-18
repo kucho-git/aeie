@@ -1,47 +1,57 @@
 body{
-	background: #252424;
+	background: linear-gradient(to top left, #33ccff 0%, #222 100%)
 }
-h1{
+header h1{
 	text-align: center;
+	font-family: "Times New Roman", Times, serif;
 	color: #fff;
 	font-size: 500%;
+	padding: 3%;
+	font-weight: 900;
 }
 h2{
 	text-align: center;
 	background: #456874;
-	padding: 2%;
-	font-size: 300%;
+	padding: 1%;
+	font-size: 400%;
+	font-weight: 700;
+	border-radius: 10px;
 }
-nav{
-	text-align: center;
-}
-nav a{
-	padding: 1% 4% 1% 4%;
-	margin: 4%;
-	border: 2px solid;
-	border-color: #fff;
+.col-md-3{
+	background: #fff;
 	border-radius: 25px;
-	text-decoration: none;
-	color: #37e578;
-	font-size: 200%;
+	border: 4px solid;
+	border-color: #fff;
+	margin: 2.3% 4.1% 2.3% 4.1%;
+}
+.col-md-3>h1{
+	text-align: center;
+	color: #fff;
+	font-size: 500%;
+	padding: 3%;
+	font-weight: 900;
+	background: #098;
+	border: 2px solid;
+	border-radius: 20px;
+	margin-top: 3.5%;
+	font-family: serif;
+	font-style: italic;
+}
+button{
+	margin: 5%;
+	width: 90%;
+}
+.dropdown-menu{
+	width: 90%;
+}
+.dropdown-item{
+	color: #222;
 	font-weight: 900;
 }
-nav{
-	margin-top: 5%;
+.dropdown-item:hover{
+	color: #fff;
+	background: #222;
 }
-nav a:hover{
-	background: #fff;
-	color: blue;
-}
-div{
-	position: fixed;
-	bottom: 0;
-}
-div img{
-	width: 20%;
-}
-@media all and (max-width: 1090px){
-	nav a{
-		display: block;
-	}
+img{
+	width: 7%;
 }
